@@ -19,6 +19,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
+import { SkeletonCard } from "./GraphSkeleton";
 
 // Define the structure for the chart data
 interface ChartData {
@@ -90,7 +91,7 @@ export function PriceChart() {
     fetchCryptoData();
   }, [symbol]);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <SkeletonCard />;
   if (error) return <p>{error}</p>;
 
   return (
