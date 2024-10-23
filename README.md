@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cryptocurrency Tracker Dashboard
 
-## Getting Started
+The Cryptocurrency Tracker Dashboard is a web application that allows users to monitor the latest trends in the cryptocurrency market. This dashboard provides real-time information on various cryptocurrencies, including price trends, market data, and conversion to fiat currencies.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search for Cryptocurrencies:** A search bar allows users to search for any cryptocurrency and view detailed information about it, including the current price, market cap, trading volume, and 24-hour price change.
+- **Price Trend Line Chart:** Visualize the price trend of a selected cryptocurrency over a specified period using an interactive line chart.
+- **Crypto-to-Fiat Converter:** Convert the selected cryptocurrency to different fiat currencies (e.g., USD, EUR, NGN) and get the equivalent value.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React:** Frontend library for building user interfaces.
+- **Next.js:** Framework for server-rendered React applications and static site generation.
+- **Recharts:** A charting library used to create the interactive line chart for price trends.
+- **Tailwind CSS:** A utility-first CSS framework for styling.
+- **ShadCN:** 
+- **Axios:** For making API requests to fetch cryptocurrency data.
+- **CoinGecko API:** Provides real-time data for cryptocurrencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Kehinde13/cryptoDashboard
