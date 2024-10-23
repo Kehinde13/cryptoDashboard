@@ -34,7 +34,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system">
           <SidebarProvider>
             <AppSidebar />
-            <main className="flex relative w-[100%]">{children}</main>
+            <main className="flex relative w-[100%]">
+              {children}
+            </main>
           </SidebarProvider>
         </ThemeProvider>
       </body>

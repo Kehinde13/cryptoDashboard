@@ -94,7 +94,7 @@ export function PriceChart() {
   if (error) return <p>{error}</p>;
 
   return (
-    <Card className="m-2">
+    <Card className="m-2 lg:w-[60%]">
       <CardHeader>
         <CardTitle>Price Trend - {symbol.toUpperCase()}</CardTitle>
         <CardDescription>Past Week</CardDescription>
